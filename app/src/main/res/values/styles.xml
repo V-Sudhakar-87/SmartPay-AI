@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SmartPayPopupTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:popupBackground">@drawable/bg_popup_menu</item>
+        <item name="popupMenuStyle">@style/SmartPayPopupMenu</item>
+    </style>
+
+    <style name="SmartPayPopupMenu" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@drawable/bg_popup_menu</item>
+    </style>
+
+</resources>

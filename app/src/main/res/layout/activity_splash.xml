@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splashRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Green animation background -->
+    <View
+        android:id="@+id/greenReveal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#245C43"
+        android:scaleX="0"
+        android:scaleY="0"
+        android:visibility="invisible" />
+
+    <!-- Center logo container -->
+    <LinearLayout
+        android:id="@+id/logoContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <ImageView
+            android:id="@+id/tvLogoSymbol"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/smartpay_logo"
+            android:scaleType="fitCenter"
+            android:contentDescription="SmartPay AI Logo" />
+
+        <TextView
+            android:id="@+id/tvAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="SmartPay AI"
+            android:textColor="#173D2E"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Smart Money. Smarter Life."
+            android:textColor="#668273"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</FrameLayout>
