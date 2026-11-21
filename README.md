@@ -118,7 +118,7 @@ You can also run the application directly from Android Studio.
 
 ## Demo Video
 
-**YouTube Demo:** [Watch SmartPay AI Demo](YOUR_YOUTUBE_VIDEO_LINK)
+**YouTube Demo:** https://youtu.be/0m0_9fhNgu8
 
 The demo video demonstrates the application's working features and user interface.
 
